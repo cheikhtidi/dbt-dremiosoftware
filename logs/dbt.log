@@ -1,0 +1,526 @@
+[0m11:10:34.141688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B89437170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B896955B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B89695850>]}
+
+
+============================== 11:10:34.187640 | 0a39eedd-4d8f-4e31-a8cd-67ab43d717b4 ==============================
+[0m11:10:34.187640 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:10:34.189028 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init testdremiodata', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:10:34.189882 [debug] [MainThread]: Starter project path: C:\Users\dell\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m11:10:34.214356 [info ] [MainThread]: 
+Your new dbt project "testdremiodata" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:10:34.217390 [info ] [MainThread]: Setting up your profile.
+[0m11:16:56.407315 [info ] [MainThread]: Profile testdremiodata written to C:\Users\dell\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:16:56.410277 [debug] [MainThread]: Command `dbt init` succeeded at 11:16:56.409854 after 382.42 seconds
+[0m11:16:56.410807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B88C1F0B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B89406180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B8970BD40>]}
+[0m11:16:56.411961 [debug] [MainThread]: Flushing usage events
+[0m11:17:16.644840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1D8F9490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE24055820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE240558B0>]}
+
+
+============================== 11:17:16.648850 | 47cde86a-8a97-4c73-b01e-8e3b2143a917 ==============================
+[0m11:17:16.648850 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:17:16.650867 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:17:16.651854 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:17:16.652848 [info ] [MainThread]: python version: 3.12.1
+[0m11:17:16.652848 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:17:16.653847 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:17:16.663387 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m11:17:16.741020 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:17:16.742022 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:17:16.743730 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:17:16.744801 [info ] [MainThread]: Configuration:
+[0m11:17:16.745801 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m11:17:16.745801 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:17:16.746848 [info ] [MainThread]: Required dependencies:
+[0m11:17:16.748220 [debug] [MainThread]: Executing "git --help"
+[0m11:17:16.782720 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:17:16.782720 [debug] [MainThread]: STDERR: "b''"
+[0m11:17:16.783720 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:17:16.784719 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:17:16.785721 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:17:16.786765 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_hol", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m11:17:16.788720 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:17:16.791156 [debug] [MainThread]: Command `dbt debug` failed at 11:17:16.791156 after 0.32 seconds
+[0m11:17:16.791156 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE23F22420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE23E803E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CE1D8F9490>]}
+[0m11:17:16.792087 [debug] [MainThread]: Flushing usage events
+[0m11:22:35.995670 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902C057C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902C05B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902C059D0>]}
+
+
+============================== 11:22:35.999767 | 7dc522ea-9da9-4f54-b1f9-df4e30fead12 ==============================
+[0m11:22:35.999767 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:22:36.000683 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:36.001677 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:22:36.002820 [info ] [MainThread]: python version: 3.12.1
+[0m11:22:36.002891 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:22:36.004226 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:22:36.088719 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m11:22:36.089626 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:22:36.090634 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:22:36.092627 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:22:36.093627 [info ] [MainThread]: Configuration:
+[0m11:22:36.094626 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m11:22:36.094876 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:22:36.096025 [info ] [MainThread]: Required dependencies:
+[0m11:22:36.097021 [debug] [MainThread]: Executing "git --help"
+[0m11:22:36.132594 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:22:36.132594 [debug] [MainThread]: STDERR: "b''"
+[0m11:22:36.133511 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:22:36.134510 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:22:36.135519 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:22:36.136528 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_hol", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m11:22:36.139508 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:22:36.142062 [debug] [MainThread]: Command `dbt debug` failed at 11:22:36.142062 after 0.29 seconds
+[0m11:22:36.143083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902C83B60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902AA0F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B902A54590>]}
+[0m11:22:36.143583 [debug] [MainThread]: Flushing usage events
+[0m11:22:56.492522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A51771A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A5177290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A5176EA0>]}
+
+
+============================== 11:22:56.496533 | fe3d317f-b3aa-4305-a77f-57191cf0eab7 ==============================
+[0m11:22:56.496533 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:22:56.497531 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:22:56.498338 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:22:56.499205 [info ] [MainThread]: python version: 3.12.1
+[0m11:22:56.499205 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:22:56.500249 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:22:56.585804 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:22:56.587807 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:22:56.588445 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:22:56.591505 [info ] [MainThread]: adapter type: dremio
+[0m11:22:56.591505 [info ] [MainThread]: adapter version: 1.7.0
+[0m11:22:56.593513 [info ] [MainThread]: Configuration:
+[0m11:22:56.594501 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:22:56.595501 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:22:56.595501 [info ] [MainThread]: Required dependencies:
+[0m11:22:56.596559 [debug] [MainThread]: Executing "git --help"
+[0m11:22:56.632131 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:22:56.633165 [debug] [MainThread]: STDERR: "b''"
+[0m11:22:56.633165 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:22:56.635156 [info ] [MainThread]: Connection:
+[0m11:22:56.635156 [info ] [MainThread]:   cloud_host: None
+[0m11:22:56.636132 [info ] [MainThread]:   cloud_project_id: None
+[0m11:22:56.637095 [info ] [MainThread]:   software_host: None
+[0m11:22:56.638108 [info ] [MainThread]:   port: 9047
+[0m11:22:56.639778 [info ] [MainThread]:   use_ssl: False
+[0m11:22:56.642133 [info ] [MainThread]:   environment: None
+[0m11:22:56.643167 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m11:22:56.644171 [info ] [MainThread]:   root_path: no_schema
+[0m11:22:56.644508 [info ] [MainThread]:   datalake: $scratch
+[0m11:22:56.645531 [info ] [MainThread]:   database: @cheikhtidianediop
+[0m11:22:56.646750 [info ] [MainThread]:   schema: no_schema
+[0m11:22:56.647723 [info ] [MainThread]:   user: cheikhtidianediop
+[0m11:22:56.648727 [info ] [MainThread]:   username: cheikhtidianediop
+[0m11:22:56.649729 [info ] [MainThread]:   object_storage_source: $scratch
+[0m11:22:56.650725 [info ] [MainThread]:   object_storage_path: no_schema
+[0m11:22:56.650725 [info ] [MainThread]:   dremio_space: @cheikhtidianediop
+[0m11:22:56.651732 [info ] [MainThread]:   dremio_space_folder: no_schema
+[0m11:22:56.653231 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m11:22:56.654608 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m11:22:56.654608 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m11:22:56.655655 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m11:22:56.656645 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:23:04.942070 [debug] [MainThread]: dremio adapter: Error running SQL: select 1 as id
+[0m11:23:04.944105 [debug] [MainThread]: On debug: No close available on handle
+[0m11:23:04.945095 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:23:04.947095 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:23:04.948202 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:23:04.950498 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  HTTPConnectionPool(host='none', port=9047): Max retries exceeded with url: /apiv2/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000299A5300350>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:23:04.954465 [debug] [MainThread]: Command `dbt debug` failed at 11:23:04.954465 after 8.57 seconds
+[0m11:23:04.954465 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:23:04.955502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A425EC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A5043380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299A4E9B9B0>]}
+[0m11:23:04.955884 [debug] [MainThread]: Flushing usage events
+[0m11:23:35.708047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFD50EFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA81E57D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA82005730>]}
+
+
+============================== 11:23:35.712070 | cc7247f8-c59c-4bf4-9e0a-4d17f60a7736 ==============================
+[0m11:23:35.712070 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:23:35.713637 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:23:35.713637 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:23:35.714748 [info ] [MainThread]: python version: 3.12.1
+[0m11:23:35.715397 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:23:35.716416 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:23:35.794056 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:23:35.796050 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:23:35.796492 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:23:35.798719 [info ] [MainThread]: adapter type: dremio
+[0m11:23:35.799719 [info ] [MainThread]: adapter version: 1.7.0
+[0m11:23:35.800682 [info ] [MainThread]: Configuration:
+[0m11:23:35.800682 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:23:35.802307 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:23:35.802307 [info ] [MainThread]: Required dependencies:
+[0m11:23:35.803658 [debug] [MainThread]: Executing "git --help"
+[0m11:23:35.835861 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:23:35.835861 [debug] [MainThread]: STDERR: "b''"
+[0m11:23:35.836857 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:23:35.837858 [info ] [MainThread]: Connection:
+[0m11:23:35.838730 [info ] [MainThread]:   cloud_host: None
+[0m11:23:35.839762 [info ] [MainThread]:   cloud_project_id: None
+[0m11:23:35.839762 [info ] [MainThread]:   software_host: localhost
+[0m11:23:35.840799 [info ] [MainThread]:   port: 9047
+[0m11:23:35.841874 [info ] [MainThread]:   use_ssl: False
+[0m11:23:35.842760 [info ] [MainThread]:   environment: None
+[0m11:23:35.843072 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m11:23:35.844085 [info ] [MainThread]:   root_path: no_schema
+[0m11:23:35.844271 [info ] [MainThread]:   datalake: $scratch
+[0m11:23:35.845318 [info ] [MainThread]:   database: @cheikhtidianediop
+[0m11:23:35.845318 [info ] [MainThread]:   schema: no_schema
+[0m11:23:35.846915 [info ] [MainThread]:   user: cheikhtidianediop
+[0m11:23:35.847005 [info ] [MainThread]:   username: cheikhtidianediop
+[0m11:23:35.848449 [info ] [MainThread]:   object_storage_source: $scratch
+[0m11:23:35.848646 [info ] [MainThread]:   object_storage_path: no_schema
+[0m11:23:35.849670 [info ] [MainThread]:   dremio_space: @cheikhtidianediop
+[0m11:23:35.850338 [info ] [MainThread]:   dremio_space_folder: no_schema
+[0m11:23:35.851417 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m11:23:35.852513 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m11:23:35.853420 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m11:23:35.853420 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m11:23:35.853420 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:23:35.900365 [debug] [MainThread]: dremio adapter: Error running SQL: select 1 as id
+[0m11:23:35.901602 [debug] [MainThread]: On debug: No close available on handle
+[0m11:23:35.902319 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:23:35.903819 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:23:35.904839 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:23:35.906316 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Unauthorized:: (401 Client Error: Unauthorized for url: http://localhost:9047/apiv2/login): ({"errorMessage":"Login failed: Invalid username or password, user cheikhtidianediop","moreInfo":"","stackTrace":[]})
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:23:35.910370 [debug] [MainThread]: Command `dbt debug` failed at 11:23:35.909911 after 0.32 seconds
+[0m11:23:35.911447 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:23:35.912335 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA81CBFAA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DAFD50EFC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA81C60E30>]}
+[0m11:23:35.913386 [debug] [MainThread]: Flushing usage events
+[0m11:24:32.207846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA21A86D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA21A851C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA21A87D40>]}
+
+
+============================== 11:24:32.211938 | aafc0388-bf1f-4bb3-adf2-4091904029c2 ==============================
+[0m11:24:32.211938 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:24:32.212860 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:24:32.213951 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:24:32.215051 [info ] [MainThread]: python version: 3.12.1
+[0m11:24:32.215051 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:24:32.216081 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:24:32.296742 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:24:32.297849 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:24:32.298745 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:24:32.300745 [info ] [MainThread]: adapter type: dremio
+[0m11:24:32.301741 [info ] [MainThread]: adapter version: 1.7.0
+[0m11:24:32.302740 [info ] [MainThread]: Configuration:
+[0m11:24:32.303452 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:24:32.304487 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:24:32.305488 [info ] [MainThread]: Required dependencies:
+[0m11:24:32.306486 [debug] [MainThread]: Executing "git --help"
+[0m11:24:32.337690 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:24:32.338812 [debug] [MainThread]: STDERR: "b''"
+[0m11:24:32.339440 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:24:32.340493 [info ] [MainThread]: Connection:
+[0m11:24:32.341490 [info ] [MainThread]:   cloud_host: None
+[0m11:24:32.343468 [info ] [MainThread]:   cloud_project_id: None
+[0m11:24:32.344471 [info ] [MainThread]:   software_host: http://localhost:9047
+[0m11:24:32.345492 [info ] [MainThread]:   port: 9047
+[0m11:24:32.346505 [info ] [MainThread]:   use_ssl: False
+[0m11:24:32.347503 [info ] [MainThread]:   environment: None
+[0m11:24:32.348503 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m11:24:32.349504 [info ] [MainThread]:   root_path: no_schema
+[0m11:24:32.350533 [info ] [MainThread]:   datalake: $scratch
+[0m11:24:32.351526 [info ] [MainThread]:   database: @cheikhtidianediop
+[0m11:24:32.352496 [info ] [MainThread]:   schema: no_schema
+[0m11:24:32.353171 [info ] [MainThread]:   user: cheikhtidianediop
+[0m11:24:32.354755 [info ] [MainThread]:   username: cheikhtidianediop
+[0m11:24:32.355246 [info ] [MainThread]:   object_storage_source: $scratch
+[0m11:24:32.356249 [info ] [MainThread]:   object_storage_path: no_schema
+[0m11:24:32.357247 [info ] [MainThread]:   dremio_space: @cheikhtidianediop
+[0m11:24:32.358021 [info ] [MainThread]:   dremio_space_folder: no_schema
+[0m11:24:32.360379 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m11:24:32.361372 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m11:24:32.362478 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m11:24:32.362478 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m11:24:32.363434 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:24:32.365931 [debug] [MainThread]: dremio adapter: Error running SQL: select 1 as id
+[0m11:24:32.365931 [debug] [MainThread]: On debug: No close available on handle
+[0m11:24:32.366930 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:24:32.368298 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:24:32.369438 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:24:32.370957 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Failed to parse: //localhost:9047:9047/apiv2/login
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:24:32.374756 [debug] [MainThread]: Command `dbt debug` failed at 11:24:32.374756 after 0.31 seconds
+[0m11:24:32.375799 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:24:32.376146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA218B3320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA218B0740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AA218FE9C0>]}
+[0m11:24:32.377249 [debug] [MainThread]: Flushing usage events
+[0m11:24:49.424878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD13C2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD4496A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD515610>]}
+
+
+============================== 11:24:49.428964 | 2c688b80-776d-4e5e-a6b1-22308974f6c7 ==============================
+[0m11:24:49.428964 [info ] [MainThread]: Running with dbt=1.7.13
+[0m11:24:49.429878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:24:49.429878 [info ] [MainThread]: dbt version: 1.7.13
+[0m11:24:49.431532 [info ] [MainThread]: python version: 3.12.1
+[0m11:24:49.431787 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m11:24:49.433073 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m11:24:49.512652 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m11:24:49.513667 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m11:24:49.515286 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m11:24:49.517724 [info ] [MainThread]: adapter type: dremio
+[0m11:24:49.518850 [info ] [MainThread]: adapter version: 1.7.0
+[0m11:24:49.519850 [info ] [MainThread]: Configuration:
+[0m11:24:49.520852 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:24:49.520852 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:24:49.521931 [info ] [MainThread]: Required dependencies:
+[0m11:24:49.522983 [debug] [MainThread]: Executing "git --help"
+[0m11:24:49.560865 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:24:49.561363 [debug] [MainThread]: STDERR: "b''"
+[0m11:24:49.561869 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:24:49.563366 [info ] [MainThread]: Connection:
+[0m11:24:49.564411 [info ] [MainThread]:   cloud_host: None
+[0m11:24:49.565882 [info ] [MainThread]:   cloud_project_id: None
+[0m11:24:49.566378 [info ] [MainThread]:   software_host: localhost:9047
+[0m11:24:49.567697 [info ] [MainThread]:   port: 9047
+[0m11:24:49.568368 [info ] [MainThread]:   use_ssl: False
+[0m11:24:49.570367 [info ] [MainThread]:   environment: None
+[0m11:24:49.571364 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m11:24:49.571868 [info ] [MainThread]:   root_path: no_schema
+[0m11:24:49.572878 [info ] [MainThread]:   datalake: $scratch
+[0m11:24:49.573878 [info ] [MainThread]:   database: @cheikhtidianediop
+[0m11:24:49.574901 [info ] [MainThread]:   schema: no_schema
+[0m11:24:49.576435 [info ] [MainThread]:   user: cheikhtidianediop
+[0m11:24:49.576504 [info ] [MainThread]:   username: cheikhtidianediop
+[0m11:24:49.577540 [info ] [MainThread]:   object_storage_source: $scratch
+[0m11:24:49.578549 [info ] [MainThread]:   object_storage_path: no_schema
+[0m11:24:49.579552 [info ] [MainThread]:   dremio_space: @cheikhtidianediop
+[0m11:24:49.580372 [info ] [MainThread]:   dremio_space_folder: no_schema
+[0m11:24:49.581536 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m11:24:49.582437 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m11:24:49.583355 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m11:24:49.583855 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m11:24:49.584866 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:24:49.586839 [debug] [MainThread]: dremio adapter: Error running SQL: select 1 as id
+[0m11:24:49.587365 [debug] [MainThread]: On debug: No close available on handle
+[0m11:24:49.587853 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m11:24:49.588916 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:24:49.589893 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m11:24:49.591950 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Failed to parse: http://localhost:9047:9047/apiv2/login
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:24:49.594291 [debug] [MainThread]: Command `dbt debug` failed at 11:24:49.594291 after 0.29 seconds
+[0m11:24:49.595292 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:24:49.595629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD3080E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD5D5850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5BD5D7830>]}
+[0m11:24:49.595629 [debug] [MainThread]: Flushing usage events
+[0m09:42:15.525344 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016854947E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016854944D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016854946330>]}
+
+
+============================== 09:42:15.542222 | 51520479-2773-4cb6-a492-ec4b2c357944 ==============================
+[0m09:42:15.542222 [info ] [MainThread]: Running with dbt=1.7.13
+[0m09:42:15.544258 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m09:42:15.546274 [info ] [MainThread]: dbt version: 1.7.13
+[0m09:42:15.547892 [info ] [MainThread]: python version: 3.12.1
+[0m09:42:15.550001 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m09:42:15.552046 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m09:42:15.785745 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m09:42:15.787931 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m09:42:15.789939 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m09:42:15.793860 [info ] [MainThread]: adapter type: dremio
+[0m09:42:15.795779 [info ] [MainThread]: adapter version: 1.7.0
+[0m09:42:15.797937 [info ] [MainThread]: Configuration:
+[0m09:42:15.800929 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:42:15.804445 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:42:15.806446 [info ] [MainThread]: Required dependencies:
+[0m09:42:15.811064 [debug] [MainThread]: Executing "git --help"
+[0m09:42:15.955653 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:42:15.959645 [debug] [MainThread]: STDERR: "b''"
+[0m09:42:15.963669 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:42:15.971292 [info ] [MainThread]: Connection:
+[0m09:42:15.975272 [info ] [MainThread]:   cloud_host: None
+[0m09:42:15.979808 [info ] [MainThread]:   cloud_project_id: None
+[0m09:42:15.984794 [info ] [MainThread]:   software_host: localhost
+[0m09:42:15.988559 [info ] [MainThread]:   port: 9047
+[0m09:42:15.991549 [info ] [MainThread]:   use_ssl: False
+[0m09:42:15.994502 [info ] [MainThread]:   environment: None
+[0m09:42:15.998489 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m09:42:16.001484 [info ] [MainThread]:   root_path: "Samples"."samples.dremio.com"
+[0m09:42:16.004487 [info ] [MainThread]:   datalake: Samples
+[0m09:42:16.007488 [info ] [MainThread]:   database: spacetest
+[0m09:42:16.012499 [info ] [MainThread]:   schema: test1
+[0m09:42:16.017299 [info ] [MainThread]:   user: cheikhtidianediop
+[0m09:42:16.020296 [info ] [MainThread]:   username: cheikhtidianediop
+[0m09:42:16.022295 [info ] [MainThread]:   object_storage_source: Samples
+[0m09:42:16.025296 [info ] [MainThread]:   object_storage_path: "Samples"."samples.dremio.com"
+[0m09:42:16.031311 [info ] [MainThread]:   dremio_space: spacetest
+[0m09:42:16.037115 [info ] [MainThread]:   dremio_space_folder: test1
+[0m09:42:16.040765 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m09:42:16.045862 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m09:42:16.050637 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m09:42:16.055624 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m09:42:16.058501 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:42:20.229201 [debug] [MainThread]: dremio adapter: Error running SQL: select 1 as id
+[0m09:42:20.231318 [debug] [MainThread]: On debug: No close available on handle
+[0m09:42:20.233320 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m09:42:20.236248 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m09:42:20.239033 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m09:42:20.281342 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  HTTPConnectionPool(host='localhost', port=9047): Max retries exceeded with url: /apiv2/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001685485B3E0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m09:42:20.295842 [debug] [MainThread]: Command `dbt debug` failed at 09:42:20.293830 after 5.21 seconds
+[0m09:42:20.297825 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:42:20.298836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016854A88E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001685431F8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000168549479B0>]}
+[0m09:42:20.300832 [debug] [MainThread]: Flushing usage events
+[0m12:20:13.610332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E8C87350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E8C87050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E8C86A80>]}
+
+
+============================== 12:20:13.625376 | 0ba518c7-2729-4e04-8acd-2e53c03f385d ==============================
+[0m12:20:13.625376 [info ] [MainThread]: Running with dbt=1.7.13
+[0m12:20:13.628902 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:20:13.630480 [info ] [MainThread]: dbt version: 1.7.13
+[0m12:20:13.631479 [info ] [MainThread]: python version: 3.12.1
+[0m12:20:13.633092 [info ] [MainThread]: python path: C:\Users\dell\AppData\Local\Programs\Python\Python312\python.exe
+[0m12:20:13.635461 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m12:20:13.867935 [info ] [MainThread]: Using profiles dir at C:\Users\dell\.dbt
+[0m12:20:13.870822 [info ] [MainThread]: Using profiles.yml file at C:\Users\dell\.dbt\profiles.yml
+[0m12:20:13.872656 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+[0m12:20:13.875561 [info ] [MainThread]: adapter type: dremio
+[0m12:20:13.876606 [info ] [MainThread]: adapter version: 1.7.0
+[0m12:20:13.878509 [info ] [MainThread]: Configuration:
+[0m12:20:13.878859 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m12:20:13.882172 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m12:20:13.883461 [info ] [MainThread]: Required dependencies:
+[0m12:20:13.886527 [debug] [MainThread]: Executing "git --help"
+[0m12:20:14.006696 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m12:20:14.010710 [debug] [MainThread]: STDERR: "b''"
+[0m12:20:14.012993 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m12:20:14.014993 [info ] [MainThread]: Connection:
+[0m12:20:14.016679 [info ] [MainThread]:   cloud_host: None
+[0m12:20:14.018682 [info ] [MainThread]:   cloud_project_id: None
+[0m12:20:14.021060 [info ] [MainThread]:   software_host: localhost
+[0m12:20:14.026061 [info ] [MainThread]:   port: 9047
+[0m12:20:14.029049 [info ] [MainThread]:   use_ssl: False
+[0m12:20:14.031056 [info ] [MainThread]:   environment: None
+[0m12:20:14.032681 [info ] [MainThread]:   UID: cheikhtidianediop
+[0m12:20:14.034736 [info ] [MainThread]:   root_path: test1
+[0m12:20:14.036764 [info ] [MainThread]:   datalake: Nessie
+[0m12:20:14.041303 [info ] [MainThread]:   database: spacetest
+[0m12:20:14.045061 [info ] [MainThread]:   schema: test1
+[0m12:20:14.046516 [info ] [MainThread]:   user: cheikhtidianediop
+[0m12:20:14.048517 [info ] [MainThread]:   username: cheikhtidianediop
+[0m12:20:14.050564 [info ] [MainThread]:   object_storage_source: Nessie
+[0m12:20:14.052562 [info ] [MainThread]:   object_storage_path: test1
+[0m12:20:14.056589 [info ] [MainThread]:   dremio_space: spacetest
+[0m12:20:14.060593 [info ] [MainThread]:   dremio_space_folder: test1
+[0m12:20:14.064587 [info ] [MainThread]: Registered adapter: dremio=1.7.0
+[0m12:20:14.067206 [debug] [MainThread]: Acquiring new dremio connection 'debug'
+[0m12:20:14.068294 [debug] [MainThread]: dremio adapter: Using dremio connection "debug". fetch=False
+[0m12:20:14.071318 [debug] [MainThread]: dremio adapter: On debug: select 1 as id
+[0m12:20:14.073298 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:20:14.193038 [debug] [MainThread]: dremio adapter: Connected to db: spacetest
+[0m12:20:14.488450 [debug] [MainThread]: dremio adapter: Job State = PLANNING
+[0m12:20:14.714963 [debug] [MainThread]: dremio adapter: Job State = RUNNING
+[0m12:20:14.946352 [debug] [MainThread]: dremio adapter: Job State = COMPLETED
+[0m12:20:14.948225 [debug] [MainThread]: dremio adapter: SQL status: 1 in 0.87 seconds
+[0m12:20:14.951381 [debug] [MainThread]: On debug: Close
+[0m12:20:14.952371 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m12:20:14.955655 [info ] [MainThread]: [31m1 check failed:[0m
+[0m12:20:14.958020 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml> not found
+
+[0m12:20:14.962232 [debug] [MainThread]: Command `dbt debug` failed at 12:20:14.962232 after 1.69 seconds
+[0m12:20:14.963230 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m12:20:14.964092 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E8B9BFB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E8D02F60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261E254B200>]}
+[0m12:20:14.966150 [debug] [MainThread]: Flushing usage events
+[0m12:55:52.442682 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAA9605190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAC0C1D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAC2C0D10>]}
+
+
+============================== 12:55:52.445850 | c8d10ee8-3213-4c6b-9544-88b4fc64b9fd ==============================
+[0m12:55:52.445850 [info ] [MainThread]: Running with dbt=1.7.13
+[0m12:55:52.445850 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\dell\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --select employees_dbt_model', 'send_anonymous_usage_stats': 'True'}
+[0m12:55:52.445850 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\dell\Documents\Projets BAAMTU\ECG\Iceberghandson\dbt-dremiosoftware\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:55:52.445850 [debug] [MainThread]: Command `dbt run` failed at 12:55:52.445850 after 0.16 seconds
+[0m12:55:52.445850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAC0E7D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAAC0E7830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FAA9605190>]}
+[0m12:55:52.452226 [debug] [MainThread]: Flushing usage events

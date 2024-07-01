@@ -1,0 +1,39 @@
+
+version: 2
+
+models:
+  - name: employees_dbt_model
+    description: "A dbt model from the employees table"
+    columns:
+      - name: employee_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+
+  - name: departments_dbt_model
+    description: "A dbt model from the departments table"
+    columns:
+      - name: department_name
+        description: "The name of the department"
+        tests:
+          - unique
+          - not_null
+          - accepted_values:
+              values:
+                - Engineering
+                - Data Science
+                - Product Management
+                - Sales
+                - Human Resources
+      - name: department_id
+        description: "Foreign key to employees_dbt_model.department_id"
+        tests:
+          - relationships:
+              to: ref('employees_dbt_model')
+              field: department_id
+
+  - name: professions_dbt_model
+    tests:
+      - dbt_utils.equal_rowcount:
+          compare_model: ref('departments_dbt_model')
